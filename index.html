@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <title>Presupuesto - Fecha</title>
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid text-center">
+        <h1>Presupuesto de <br><span>Octubre 2022</span></h1>
+        <br>
+        <span style="font-size: 45px;font-weight: bold;">+500.00</span>
+        <!--label Ingresos-->
+        <div class="d-flex justify-content-center column">
+            <div class="p-2 flex-lg-column col-auto bg-secondary m-2 rounded-lg">
+                <span class="badge badge-secondary" style="font-size: 15px;">INGRESOS: </span>
+                <span class="badge badge-secondary" style="font-size: 15px;"> +800</span>
+            </div>
+        </div>
+        <!--label Egresos-->
+        <div class="d-flex justify-content-center column">
+            <div class="p-2 flex-lg-column bg-white border border-dark m-2 rounded-lg">
+                <span class="badge" style="font-size: 15px;">EGRESOS: </span>
+                <span class="badge" style="font-size: 15px;"> -300</span>
+            </div>
+        </div>
+        <div class="mt-4">
+            <h5>Porcentaje de gastos: <span class="badge badge-secondary">12%</span></h5>
+        </div>
+    </div>
+    <!--Seccion de Ingresos y Egresos-->
+    <div class="row col-auto mb-4">
+        <div class="col-sm text-center">
+            <div class="">
+                <span class="badge" style="font-size: 25px; font-weight: bold;">Transaccion</span>
+            </div>
+            <!--Inputs para ingresar datos-->
+            <div class="col align-self-center">
+                <div class="col-sm m-0">
+                    <div class="d-flex justify-content-center column">
+                        <div class="p-2 flex-lg-column rounded-lg">
+                            <select name="cars" class="form-control">
+                                <option selected>Ingreso | Engreso</option>
+                                <option value="volvo">Volvo</option>
+                                <option value="fiat">Fiat</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm m-0">
+                    <div class="d-flex justify-content-center column">
+                        <div class="p-2 flex-lg-column rounded-lg">
+                            <input type="text" class="form-control" placeholder="Enter email" id="email">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm m-0">
+                    <div class="d-flex justify-content-center column">
+                        <div class="p-2 flex-lg-column rounded-lg">
+                            <input type="number" class="form-control" placeholder="Monto" id="pwd">
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-secondary">Agregar</button>
+            </div>
+        </div>
+
+        <div class="col-sm m-0">
+            <div class="d-flex justify-content-center column">
+                <div class="form-row">
+                    <div class="col-7">
+                      <input type="text" class="form-control" placeholder="Ingreso">
+                    </div>
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="State">
+                    </div>
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Zip">
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
